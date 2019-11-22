@@ -29,7 +29,7 @@ jobs:
   job_2:
     needs: job_1
     name: Create tag
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
       with:
