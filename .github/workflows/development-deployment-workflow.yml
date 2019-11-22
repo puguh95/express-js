@@ -7,7 +7,7 @@ on:
 jobs:
   job_1:
     name: Build and Test
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [11.14.0]
