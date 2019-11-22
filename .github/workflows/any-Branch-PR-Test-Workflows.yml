@@ -4,7 +4,7 @@ on: [push]
 jobs:
   job_1:
     name: Build and Test
-    runs-on: [ubuntu-latest,macos-latest]
+    runs-on: [macos-latest]
     strategy:
       matrix:
         node-version: [11.14.0]
